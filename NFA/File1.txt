@@ -1,0 +1,6 @@
+cat
+cccat
+bat
+batt
+cab
+cabbb
