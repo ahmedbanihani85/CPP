@@ -1,0 +1,14 @@
+These codes are for our project :  
+
+the folder "Car codes and base station codes" contains three sketches for Arduino codes :
+1 - nrf24_client : is the sketch for the base station Arduino. 
+2 - nrf24_server: is the sketch for the leader Vehicle 
+3 - nrf24_server_follower  : is the sketch for the follower Vehicle 
+
+the folder "StopSignDetector" : 
+It is a C# EMGU CV (OpenCV) that detects the Octgon shape of the stop sign and filter the red color, then it detects the stop word inside it.
+The application also communicate with the arduino that has the RF transciver to send the commands to the leader car. The user should choose the COM port # to enbale the camera options.
+Once the camera options are enabled, the user should enter the correct IP address of the Raspberry pi, then press the Capture button.
+
+ 
+
